@@ -49,28 +49,3 @@ export class UserRoutes {
     }
 
 }
-
-/*const router = Router();
-
-router.route('/')
-    .get(getUsers)
-    .post(createUser);
-
-router.route('/:userID')
-    .get(getUserById)
-    .put(updateUser)
-    .delete(deleteUser);
-
-router.route('/login')
-.post(getUserByUsernameAndPassword);
-
-router.route('/send-email')
-    .post(sendEmail)
-
-router.route('/upload')
-    .post((req, res) => {
-        console.log(req.file)
-        res.end("uploaded")
-    })
-
-export default router;*/

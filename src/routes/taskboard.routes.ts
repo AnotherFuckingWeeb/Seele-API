@@ -32,20 +32,3 @@ export class TaskboardRoutes {
     }
 
 }
-
-/*const router = Router();
-
-router.route('/')
-    .get(getTaskboards)
-    .post(createTaskboard)
-
-router.route('/project_id=:projectID')
-    .get(getTaskboardsByProjectId)
-    .delete(deleteTaskboardByProjectId)
-
-router.route('/:taskboardID')
-    .get(getTaskboardById)
-    .put(updateTaskboard)
-    .delete(deleteTaskboard)
-
-export default router;*/

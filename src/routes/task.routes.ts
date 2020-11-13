@@ -29,19 +29,3 @@ export class TaskRoutes {
             .delete(this.controller.deleteTask)
     }
 }
-
-
-/*const router = Router();
-
-router.route('/')
-    .get(getTasks)
-    .post(createTask);
-
-router.route('/taskboard_id=:taskboardID')
-    .get(getTasksByTaskboardId);
-
-router.route('/:taskID')
-    .get(getTaskById)
-    .put(updateTask)
-    .delete(deleteTask);
-export default router;*/

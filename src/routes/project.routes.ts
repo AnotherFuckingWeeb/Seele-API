@@ -38,22 +38,3 @@ export class ProjectRoutes {
     }
 
 }
-
-/*const router = Router();
-
-router.route('/')
-    .get(getProjects)
-    .post(createProject);
-
-router.route('/user_id=:userID')
-    .get(getProjectsByUserId);
-
-router.route('/:projectID')
-    .get(getProjectById)
-    .put(updateProject)
-    .delete(deleteProject);
-
-router.route('/:title=:projectTitle')
-    .post(getProjectsByTitle);
-
-export default router;*/
